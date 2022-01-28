@@ -1,0 +1,30 @@
+   
+{
+  "name": "cpi_hack",
+  "version": "0.20.1",
+  "license": "(MIT OR Apache-2.0)",
+  "homepage": "https://github.com/project-serum/anchor#readme",
+  "bugs": {
+    "url": "https://github.com/project-serum/anchor/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/project-serum/anchor.git"
+  },
+  "engines": {
+    "node": ">=11"
+  },
+    "dependencies": {
+        "@project-serum/anchor": "^0.20.0"
+    },
+    "devDependencies": {
+        "chai": "^4.3.4",
+        "mocha": "^9.0.3",
+        "ts-mocha": "^8.0.0",
+        "@types/mocha": "^9.0.0",
+        "typescript": "^4.3.5"
+    },
+  "scripts": {
+    "test": "anchor test"
+  }
+}
